@@ -1,0 +1,151 @@
+#include "player.h"
+#include "base.h"
+#include <cmath>
+#include "map.h"
+
+#define movement_speed 10
+#define MAXIMUM_JUMP_SPEED 20
+#define START_FALLING_SPEED 12
+#define GRAVITY_VELOCITY 2
+
+CLS_PLAYER PLAYER_1;
+
+void CLS_PLAYER::init(){
+
+BODY_R.x = 300;
+BODY_R.y = 500;
+BODY_R.w = 80;
+BODY_R.h = 160;
+
+_skin = NULL;
+_skin = LoadTex( "Data//Sprites//SKINS//HERO//move.png" );
+vely = 0;
+IS_JUMPING = false;
+JUMP_TIMER = SDL_GetTicks();
+JUMP_DELAY_TIMER = SDL_GetTicks() - 2000;
+IS_FALLING = false;
+}
+void CLS_PLAYER::draw(){
+
+
+ApplyTex( BODY_R.x,BODY_R.y, _skin );
+
+}
+void CLS_PLAYER::handleKeys(void){
+int block_x,block_y;
+const unsigned char *KEYPRESSED = SDL_GetKeyboardState(NULL);
+
+velx = 0;
+
+
+if( KEYPRESSED[ SDL_SCANCODE_RIGHT ] )
+{
+    velx += movement_speed;
+}
+else
+if( KEYPRESSED[ SDL_SCANCODE_LEFT ] )
+{
+    velx -= movement_speed;
+}
+
+if( KEYPRESSED[ SDL_SCANCODE_UP ] )
+{
+    if( IS_JUMPING == false && IS_FALLING == false && SDL_GetTicks() - JUMP_DELAY_TIMER > 450 )
+    {
+        IS_JUMPING = true;
+        vely = -MAXIMUM_JUMP_SPEED;
+        JUMP_TIMER = SDL_GetTicks();
+        JUMP_DELAY_TIMER = SDL_GetTicks();
+    }
+}
+else
+if( KEYPRESSED[ SDL_SCANCODE_DOWN ] )
+{
+    //vely += movement_speed;
+}
+
+if( IS_JUMPING )
+{
+    if( SDL_GetTicks() - 10 > JUMP_TIMER )
+    {
+        vely += GRAVITY_VELOCITY;
+
+        JUMP_TIMER = SDL_GetTicks();
+    }
+
+    if( vely > 0 )
+    {
+        IS_JUMPING = false;
+        IS_FALLING = true;
+    }
+}
+
+if( IS_FALLING )
+{
+    if( SDL_GetTicks() - 20 > JUMP_TIMER )
+    {
+        vely += GRAVITY_VELOCITY;
+
+        JUMP_TIMER = SDL_GetTicks();
+    }
+}
+
+
+
+/// --- Check Collision ---
+block_x = floor( (double)BODY_R.x / 80 );
+block_y = floor( (double)BODY_R.y / 80 );
+/**/
+// ---COLLISION:DOWN STOP FALLING --
+if( (MAP.isCollision( block_x    ,floor( (BODY_R.y + BODY_R.h)/80 )) ||
+     MAP.isCollision( block_x + 1,floor( (BODY_R.y + BODY_R.h)/80 ))
+     )  &&  !IS_JUMPING )
+{
+    vely = 0;
+    IS_FALLING = false;
+    BODY_R.y = (block_y-2) * 80 + BODY_R.h;
+}
+//Pre-check
+else
+if( (MAP.isCollision( block_x    ,floor( (BODY_R.y + BODY_R.h + vely )/80 )) ||
+     MAP.isCollision( block_x + 1,floor( (BODY_R.y + BODY_R.h + vely )/80 ))
+     )  &&  !IS_JUMPING )
+{
+    vely = 0;
+    IS_FALLING = false;
+    BODY_R.y = (block_y-1) * 80 + BODY_R.h + vely;
+}
+// --- FALLING ---
+else if( !IS_JUMPING )
+{
+    vely = START_FALLING_SPEED;
+    IS_FALLING = true;
+}
+
+
+// -- COLLISION: UP --
+//if( BODY_R.y > 80 * (block_y + 1) )
+
+// -- COLLISION: RIGHT --
+if( MAP.isCollision( floor( (double)(BODY_R.x + velx ) / 80 ) + 1,floor( (BODY_R.y + BODY_R.h)/80 ) -1 ))
+{
+   velx = 0;
+   BODY_R.x = (block_x + 1) * 80;
+}
+
+// -- COLLISION: LEFT --
+if( MAP.isCollision( floor( (double)(BODY_R.x + velx ) / 80 ) ,floor( (BODY_R.y + BODY_R.h)/80 ) -1 ))
+{
+   velx = 0;
+   BODY_R.x = (block_x ) * 80;
+}
+
+
+BODY_R.x += velx;
+BODY_R.y += vely;
+}
+
+
+
+
+

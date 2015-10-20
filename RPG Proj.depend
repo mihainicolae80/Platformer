@@ -1,0 +1,657 @@
+# depslib dependency file v1.0
+1406374547 source:/home/mihai/Projects/RPG Proj/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"media_misc.h"
+
+1406393027 source:/home/mihai/Projects/RPG Proj/SOURCES/base.cpp
+	"base.h"
+
+1406392987 /home/mihai/Projects/RPG Proj/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406372852 source:/home/mihai/Projects/RPG Proj/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+
+1399114841 /home/mihai/Projects/RPG Proj/SOURCES/rungame.h
+	"basics.h"
+
+1406383602 /home/mihai/Projects/RPG Proj/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406393077 source:/home/mihai/Projects/RPG Proj/SOURCES/basics.cpp
+	"basics.h"
+
+1403728952 /home/mihai/Projects/RPG Proj/SOURCES/player.h
+	"basics.h"
+
+1403728952 source:/home/mihai/Projects/RPG Proj/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+
+1406392564 /home/mihai/Projects/RPG Proj/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406393280 source:/home/mihai/Projects/RPG Proj/SOURCES/console.cpp
+	"console.h"
+
+1406374262 /home/mihai/Projects/RPG Proj/SOURCES/media_misc.h
+
+1406378743 source:/home/mihai/Projects/RPG Proj/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1406730391 source:/home/mihai/Projects/Platformer/SOURCES/base.cpp
+	"base.h"
+	"map.h"
+	"assets.h"
+	"edit_mode.h"
+	"media_misc.h"
+
+1406392987 /home/mihai/Projects/Platformer/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406392564 /home/mihai/Projects/Platformer/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406531950 /home/mihai/Projects/Platformer/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406547280 /home/mihai/Projects/Platformer/SOURCES/media_misc.h
+
+1406613112 source:/home/mihai/Projects/Platformer/SOURCES/basics.cpp
+	"basics.h"
+	"cmath"
+
+1406531970 source:/home/mihai/Projects/Platformer/SOURCES/console.cpp
+	"console.h"
+
+1406703392 source:/home/mihai/Projects/Platformer/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"map.h"
+
+1399114841 /home/mihai/Projects/Platformer/SOURCES/rungame.h
+	"basics.h"
+
+1407398368 /home/mihai/Projects/Platformer/SOURCES/player.h
+	"basics.h"
+
+1406547278 source:/home/mihai/Projects/Platformer/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1408179395 source:/home/mihai/Projects/Platformer/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+	<cmath>
+	"map.h"
+
+1407403422 source:/home/mihai/Projects/Platformer/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+	"map.h"
+	"edit_mode.h"
+
+1406729092 /home/mihai/Projects/Platformer/SOURCES/map.h
+	"basics.h"
+	<fstream>
+
+1406823142 source:/home/mihai/Projects/Platformer/SOURCES/map.cpp
+	"map.h"
+	"assets.h"
+
+1406702706 source:/home/mihai/Projects/Platformer/SOURCES/assets.cpp
+	"assets.h"
+
+1406702647 /home/mihai/Projects/Platformer/SOURCES/assets.h
+	"base.h"
+	<sstream>
+
+1406710449 source:/home/mihai/Projects/Platformer/SOURCES/edit_mode.cpp
+	"edit_mode.h"
+	"assets.h"
+	"map.h"
+	<cmath>
+	<fstream>
+
+1406705163 /home/mihai/Projects/Platformer/SOURCES/edit_mode.h
+	"base.h"
+	"basics.h"
+
+1406702706 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/assets.cpp
+	"assets.h"
+
+1406702647 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/assets.h
+	"base.h"
+	<sstream>
+
+1406392987 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406392564 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406531950 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406547280 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/media_misc.h
+
+1412347213 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/base.cpp
+	"base.h"
+	"map.h"
+	"assets.h"
+	"edit_mode.h"
+	"media_misc.h"
+	"settings.h"
+
+1406729092 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/map.h
+	"basics.h"
+	<fstream>
+
+1406705163 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/edit_mode.h
+	"base.h"
+	"basics.h"
+
+1406613112 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/basics.cpp
+	"basics.h"
+	"cmath"
+
+1406531970 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/console.cpp
+	"console.h"
+
+1406710449 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/edit_mode.cpp
+	"edit_mode.h"
+	"assets.h"
+	"map.h"
+	<cmath>
+	<fstream>
+
+1412346797 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"map.h"
+	"settings.h"
+
+1399114841 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/rungame.h
+	"basics.h"
+
+1407398368 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/player.h
+	"basics.h"
+
+1406823142 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/map.cpp
+	"map.h"
+	"assets.h"
+
+1406547278 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1408179395 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+	<cmath>
+	"map.h"
+
+1412347376 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+	"map.h"
+	"edit_mode.h"
+
+1412346702 /home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/settings.h
+	<fstream>
+
+1412346778 source:/home/mihai/Dropbox/ACTIVE/Platformer/SOURCES/settings.cpp
+	"settings.h"
+
+1406702706 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/assets.cpp
+	"assets.h"
+
+1406702647 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/assets.h
+	"base.h"
+	<sstream>
+
+1406392987 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406392564 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406531950 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406547280 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/media_misc.h
+
+1412347213 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/base.cpp
+	"base.h"
+	"map.h"
+	"assets.h"
+	"edit_mode.h"
+	"media_misc.h"
+	"settings.h"
+
+1406729092 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/map.h
+	"basics.h"
+	<fstream>
+
+1406705163 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/edit_mode.h
+	"base.h"
+	"basics.h"
+
+1412346702 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/settings.h
+	<fstream>
+
+1406613112 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/basics.cpp
+	"basics.h"
+	"cmath"
+
+1406531970 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/console.cpp
+	"console.h"
+
+1406710449 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/edit_mode.cpp
+	"edit_mode.h"
+	"assets.h"
+	"map.h"
+	<cmath>
+	<fstream>
+
+1412346797 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"map.h"
+	"settings.h"
+
+1399114841 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/rungame.h
+	"basics.h"
+
+1407398368 /home/mihai/Dropbox/FROZEN/Platformer/SOURCES/player.h
+	"basics.h"
+
+1406823142 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/map.cpp
+	"map.h"
+	"assets.h"
+
+1406547278 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1408179395 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+	<cmath>
+	"map.h"
+
+1412347376 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+	"map.h"
+	"edit_mode.h"
+
+1412346778 source:/home/mihai/Dropbox/FROZEN/Platformer/SOURCES/settings.cpp
+	"settings.h"
+
+1406702706 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/assets.cpp
+	"assets.h"
+
+1406702647 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/assets.h
+	"base.h"
+	<sstream>
+
+1406392987 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406392564 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406531950 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406547280 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/media_misc.h
+
+1412347213 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/base.cpp
+	"base.h"
+	"map.h"
+	"assets.h"
+	"edit_mode.h"
+	"media_misc.h"
+	"settings.h"
+
+1406729092 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/map.h
+	"basics.h"
+	<fstream>
+
+1406705163 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/edit_mode.h
+	"base.h"
+	"basics.h"
+
+1412346702 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/settings.h
+	<fstream>
+
+1406613112 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/basics.cpp
+	"basics.h"
+	"cmath"
+
+1406531970 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/console.cpp
+	"console.h"
+
+1406710449 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/edit_mode.cpp
+	"edit_mode.h"
+	"assets.h"
+	"map.h"
+	<cmath>
+	<fstream>
+
+1412346797 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"map.h"
+	"settings.h"
+
+1399114841 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/rungame.h
+	"basics.h"
+
+1407398368 /home/mihai/Desktop/Platformer/Platformer 2/SOURCES/player.h
+	"basics.h"
+
+1406823142 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/map.cpp
+	"map.h"
+	"assets.h"
+
+1406547278 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1408179395 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+	<cmath>
+	"map.h"
+
+1412347376 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+	"map.h"
+	"edit_mode.h"
+
+1412346778 source:/home/mihai/Desktop/Platformer/Platformer 2/SOURCES/settings.cpp
+	"settings.h"
+
+1406702706 source:/media/common_drive/Projects/Platformer/SOURCES/assets.cpp
+	"assets.h"
+
+1406702647 /media/common_drive/Projects/Platformer/SOURCES/assets.h
+	"base.h"
+	<sstream>
+
+1406392987 /media/common_drive/Projects/Platformer/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406392564 /media/common_drive/Projects/Platformer/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406531950 /media/common_drive/Projects/Platformer/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406547280 /media/common_drive/Projects/Platformer/SOURCES/media_misc.h
+
+1412347213 source:/media/common_drive/Projects/Platformer/SOURCES/base.cpp
+	"base.h"
+	"map.h"
+	"assets.h"
+	"edit_mode.h"
+	"media_misc.h"
+	"settings.h"
+
+1406729092 /media/common_drive/Projects/Platformer/SOURCES/map.h
+	"basics.h"
+	<fstream>
+
+1406705163 /media/common_drive/Projects/Platformer/SOURCES/edit_mode.h
+	"base.h"
+	"basics.h"
+
+1412346702 /media/common_drive/Projects/Platformer/SOURCES/settings.h
+	<fstream>
+
+1406613112 source:/media/common_drive/Projects/Platformer/SOURCES/basics.cpp
+	"basics.h"
+	"cmath"
+
+1406531970 source:/media/common_drive/Projects/Platformer/SOURCES/console.cpp
+	"console.h"
+
+1406710449 source:/media/common_drive/Projects/Platformer/SOURCES/edit_mode.cpp
+	"edit_mode.h"
+	"assets.h"
+	"map.h"
+	<cmath>
+	<fstream>
+
+1412346797 source:/media/common_drive/Projects/Platformer/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"map.h"
+	"settings.h"
+
+1399114841 /media/common_drive/Projects/Platformer/SOURCES/rungame.h
+	"basics.h"
+
+1407398368 /media/common_drive/Projects/Platformer/SOURCES/player.h
+	"basics.h"
+
+1406823142 source:/media/common_drive/Projects/Platformer/SOURCES/map.cpp
+	"map.h"
+	"assets.h"
+
+1406547278 source:/media/common_drive/Projects/Platformer/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1408179395 source:/media/common_drive/Projects/Platformer/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+	<cmath>
+	"map.h"
+
+1412347376 source:/media/common_drive/Projects/Platformer/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+	"map.h"
+	"edit_mode.h"
+
+1412346778 source:/media/common_drive/Projects/Platformer/SOURCES/settings.cpp
+	"settings.h"
+
+1406702706 source:/home/mihai/Projects/Git/Platformer/SOURCES/assets.cpp
+	"assets.h"
+
+1406702647 /home/mihai/Projects/Git/Platformer/SOURCES/assets.h
+	"base.h"
+	<sstream>
+
+1406392987 /home/mihai/Projects/Git/Platformer/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"console.h"
+
+1406392564 /home/mihai/Projects/Git/Platformer/SOURCES/console.h
+	"base.h"
+	"basics.h"
+	"media_misc.h"
+
+1406531950 /home/mihai/Projects/Git/Platformer/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1406547280 /home/mihai/Projects/Git/Platformer/SOURCES/media_misc.h
+
+1412347213 source:/home/mihai/Projects/Git/Platformer/SOURCES/base.cpp
+	"base.h"
+	"map.h"
+	"assets.h"
+	"edit_mode.h"
+	"media_misc.h"
+	"settings.h"
+
+1406729092 /home/mihai/Projects/Git/Platformer/SOURCES/map.h
+	"basics.h"
+	<fstream>
+
+1406705163 /home/mihai/Projects/Git/Platformer/SOURCES/edit_mode.h
+	"base.h"
+	"basics.h"
+
+1412346702 /home/mihai/Projects/Git/Platformer/SOURCES/settings.h
+	<fstream>
+
+1406613112 source:/home/mihai/Projects/Git/Platformer/SOURCES/basics.cpp
+	"basics.h"
+	"cmath"
+
+1406531970 source:/home/mihai/Projects/Git/Platformer/SOURCES/console.cpp
+	"console.h"
+
+1406710449 source:/home/mihai/Projects/Git/Platformer/SOURCES/edit_mode.cpp
+	"edit_mode.h"
+	"assets.h"
+	"map.h"
+	<cmath>
+	<fstream>
+
+1412346797 source:/home/mihai/Projects/Git/Platformer/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"player.h"
+	"map.h"
+	"settings.h"
+
+1399114841 /home/mihai/Projects/Git/Platformer/SOURCES/rungame.h
+	"basics.h"
+
+1407398368 /home/mihai/Projects/Git/Platformer/SOURCES/player.h
+	"basics.h"
+
+1406823142 source:/home/mihai/Projects/Git/Platformer/SOURCES/map.cpp
+	"map.h"
+	"assets.h"
+
+1406547278 source:/home/mihai/Projects/Git/Platformer/SOURCES/media_misc.cpp
+	"base.h"
+	"basics.h"
+	<iostream>
+
+1408179395 source:/home/mihai/Projects/Git/Platformer/SOURCES/player.cpp
+	"player.h"
+	"base.h"
+	<cmath>
+	"map.h"
+
+1412347376 source:/home/mihai/Projects/Git/Platformer/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"player.h"
+	"map.h"
+	"edit_mode.h"
+
+1412346778 source:/home/mihai/Projects/Git/Platformer/SOURCES/settings.cpp
+	"settings.h"
+
