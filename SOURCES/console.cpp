@@ -6,6 +6,9 @@ void CLS_CONSOLE::init(){
 _DISPLAY = false;
 
 
+//Ana are mere
+
+
 //  -- INIT LIST --
 _First_node = new node;
 _Last_node  = new node;
@@ -196,18 +199,3 @@ if( INPUT_LINE_UPDATE )
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
